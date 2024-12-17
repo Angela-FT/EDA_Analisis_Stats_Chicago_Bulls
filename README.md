@@ -37,7 +37,3 @@ Los datos utilizados provienen de una base de datos de estadísticas de jugadore
 ## Gráficos y Visualizaciones
 
 Los gráficos y visualizaciones fueron generados usando **Seaborn** y **Matplotlib**.
-
-## Recomendaciones
-
-Este análisis exploratorio de datos proporciona información valiosa sobre cómo los Chicago Bulls pueden mejorar su rendimiento, tanto en el área ofensiva como defensiva. La **dependencia de los tiros de dos puntos (2P)** para los puntos y la alta correlación entre **robos** y **bloqueos** sugieren que los Bulls tienen un enfoque defensivo sólido, pero necesitan diversificar su estrategia ofensiva, especialmente en el tiro de tres puntos.
