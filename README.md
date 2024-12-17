@@ -7,55 +7,34 @@ Este proyecto presenta un análisis exploratorio de datos (EDA) sobre el rendimi
 ## Objetivos
 
 - Comparar las **estadísticas ofensivas y defensivas** de los **Chicago Bulls** con las de otros equipos de la NBA.
-- Identificar patrones y relaciones entre métricas clave como **puntos por juego (PTS)**, **robos (STL)**, **bloqueos (BLK)**, y **rebotes defensivos (DRB)**.
-- Proporcionar recomendaciones estratégicas basadas en los hallazgos del análisis.
+- Identificar patrones y relaciones entre métricas clave como **puntos por partido (PTS)**, **canastas de 2 y de 3 puntos (2P) y (3P)**, **robos (STL)**, **bloqueos (BLK)**, y **rebotes defensivos (DRB)**.
+- Proporcionar recomendaciones basadas en los hallazgos del análisis.
 
 ## Datos Utilizados
 
-Los datos utilizados provienen de una base de datos de estadísticas de jugadores de la NBA, que incluye métricas como:
-- **FG**: Tiros de campo
-- **3P**: Tiros de tres puntos
-- **2P**: Tiros de dos puntos
-- **ORB**: Rebotes ofensivos
-- **DRB**: Rebotes defensivos
-- **STL**: Robos
-- **BLK**: Bloqueos
-- **PTS**: Puntos
+Los datos utilizados provienen de una base de datos de estadísticas de jugadores de la NBA que incluyen diferentes métricas.
 
 ## Herramientas y Tecnologías
 
 - **Python 3**: Lenguaje de programación principal.
 - **Pandas**: Para la manipulación de datos.
 - **Matplotlib / Seaborn**: Para la visualización de gráficos.
-- **Jupyter Notebooks**: Para el análisis interactivo.
+- **Jupyter Notebooks**
 
 ## Pasos Realizados
 
-1. **Análisis Descriptivo**:
-   - Cálculo de **estadísticas descriptivas** para cada métrica clave.
+1. **Análisis**:
+   - Análisis y comparación de **estadísticas** para cada métrica clave.
+   - Comparación entre el rendimiento de los **Chicago Bulls** y los **equipos de la liga**.
    - Visualización de la distribución de las métricas.
 
-2. **Análisis de Correlación**:
-   - Creación de **mapas de calor (heatmaps)** para mostrar las correlaciones entre las estadísticas.
-   - Comparación entre el rendimiento de los **Chicago Bulls** y los **equipos de la liga**.
+2. **Hallazgos**:
+   - Las hipótesis iniciales no se confirmaron totalmente por lo que el mal rendimiento del equipo la pasada temporada no puede justificarse solo por una mala actuación de los jugadores.
 
-3. **Hallazgos**:
-   - Los **Bulls** tienen una fuerte correlación entre **puntos y tiros de dos puntos (2P)**.
-   - Los **robos (STL)** y **bloqueos (BLK)** en los Bulls están más correlacionados que en la mayoría de los equipos de la liga.
-   - Las métricas defensivas (**rebotes defensivos y robos**) tienen una alta correlación, lo que sugiere un rendimiento defensivo sólido.
-
-4. **Recomendaciones**:
-   - **Mejorar la efectividad en tiros de tres puntos (3P)**.
-   - **Diversificar las jugadas ofensivas**, especialmente en términos de tiros de tres puntos.
-   - **Incrementar la cantidad de bloqueos** y **robos** para una defensa más activa.
+3. **Recomendaciones**:
+   - Es necesario seguir investigando las causas del mal desempeño del equipo,además de considerar otras variables que no se incluyeron en este EDA.
 
 ## Gráficos y Visualizaciones
-
-Durante el análisis, se generaron los siguientes gráficos:
-
-- **Distribución de las estadísticas** de los Bulls vs. la liga.
-- **Mapas de calor** (heatmaps) para la **correlación** de diversas métricas ofensivas y defensivas.
-- **Gráficos de dispersión (scatterplots)** para analizar la relación entre **robos (STL)** y **bloqueos (BLK)**.
 
 Los gráficos y visualizaciones fueron generados usando **Seaborn** y **Matplotlib**.
 
