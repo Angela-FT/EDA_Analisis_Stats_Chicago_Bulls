@@ -31,13 +31,13 @@ Los datos utilizados provienen de una base de datos de estadísticas de jugadore
 2. **Hallazgos**:
    - Las hipótesis iniciales no se confirmaron totalmente por lo que el mal rendimiento del equipo la pasada temporada no puede justificarse solo por una mala actuación de los jugadores.
 
-3. **Recomendaciones**:
+3. **Conclusiones**:
    - Es necesario seguir investigando las causas del mal desempeño del equipo,además de considerar otras variables que no se incluyeron en este EDA.
 
 ## Gráficos y Visualizaciones
 
 Los gráficos y visualizaciones fueron generados usando **Seaborn** y **Matplotlib**.
 
-## Conclusiones
+## Recomendaciones
 
 Este análisis exploratorio de datos proporciona información valiosa sobre cómo los Chicago Bulls pueden mejorar su rendimiento, tanto en el área ofensiva como defensiva. La **dependencia de los tiros de dos puntos (2P)** para los puntos y la alta correlación entre **robos** y **bloqueos** sugieren que los Bulls tienen un enfoque defensivo sólido, pero necesitan diversificar su estrategia ofensiva, especialmente en el tiro de tres puntos.
